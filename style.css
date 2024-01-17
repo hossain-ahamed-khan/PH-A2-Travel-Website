@@ -75,8 +75,8 @@ nav {
 
 .hero-section-container-text {
     position: absolute;
-    top: 15%;
-    left: 12%;
+    top: 10%;
+    left: 15%;
 }
 
 .hero-section-container-text h1 {
@@ -88,10 +88,11 @@ nav {
 
 .hero-section-container-text p {
     color: #FFF;
-    font-size: 16px;
+    font-size: 1em;
     font-style: normal;
     font-weight: 400;
     margin-bottom: 3em;
+    padding: 0 3em 2em 3em;
 }
 
 .hero-section-container img {
@@ -145,24 +146,25 @@ nav {
 
 .popular-tour-section-container-text {
     text-align: left;
-    padding-right: 5em;
+    padding-right: 4em;
+    padding-left: 1em;
 }
 
 .popular-tour-section-container-text h1 {
-    font-size: 2rem;
+    font-size: 2em;
     font-style: normal;
     font-weight: 800;
 }
 
 .popular-tour-section-container-text p li {
     color: rgba(19, 19, 24, 0.70);
-    font-size: 1rem;
+    font-size: 1em;
     font-style: normal;
     font-weight: 400;
 }
 
 .popular-tour-section-container-text li {
-    padding: 0.5rem;
+    padding: 0.5em;
 }
 
 .popular-tour-section-container-text button {
@@ -170,7 +172,7 @@ nav {
     color: #FFF;
     border: none;
     border-radius: 8px;
-    padding: 0.5rem 1rem;
+    padding: 0.5em 1em;
     cursor: pointer;
 }
 
@@ -272,7 +274,7 @@ nav {
     width: 30%;
     border-radius: 16px;
     border: 1px solid #FF5400;
-    padding: 3rem;
+    padding: 2em;
     text-align: left;
 }
 
@@ -314,7 +316,7 @@ nav {
 }
 
 .newsletter-section-container-image {
-    width: 55%;
+    width: 60%;
 }
 
 .newsletter-section-container-image img {
@@ -328,7 +330,7 @@ nav {
 }
 
 .footer-section-container {
-    margin-top: 5rem;
+    margin-top: 5em;
     padding: 5em 0;
 }
 
@@ -354,6 +356,8 @@ nav {
     margin-bottom: 2em;
 }
 
+/* responsive for mobile device start here  */
+
 @media screen and (max-width:600px) {
     body {
         width: 450px;
@@ -361,16 +365,29 @@ nav {
         margin: 0 auto;
     }
 
-    .menu li {
+    .menu-container {
         display: none;
     }
 
+    .hambarger-menu {
+        display: inline;
+    }
+
+    .hamburger-button {
+        background-color: #FFF;
+        color: rgba(19, 19, 24, 1);
+        font-size: 2em;
+        cursor: pointer;
+        text-decoration: none;
+        border: none;
+    }
+
     .title h1 {
-        font-size: 1rem;
+        font-size: 1em;
     }
 
     .title span {
-        font-size: 1rem;
+        font-size: 1em;
     }
 
     .title img {
@@ -383,18 +400,18 @@ nav {
         position: relative;
     }
 
+    .hero-section-container img {
+        border-radius: 12px;
+    }
+
     .hero-section-container-text {
         position: absolute;
+        top: 1%;
+        left: 1%;
     }
 
     .hero-section-container-text h1 {
-        font-size: 1.5rem;
-        padding-right: 2em;
-    }
-
-    .hero-section-container-text p {
-        font-size: 1rem;
-        padding-right: 3em;
+        font-size: 1.5em;
     }
 
     .hero-section-container img {
@@ -406,10 +423,11 @@ nav {
         width: 77%;
         display: flex;
         flex-direction: column;
+        margin-left: 2em;
     }
 
     .hero-section-container-input input {
-        width: 77%;
+        width: 79%;
         padding: 1em 2em;
         margin-bottom: 1em;
     }
@@ -428,12 +446,20 @@ nav {
 
     .popular-tour-section-container {
         display: block;
-        margin-bottom: 2rem;
+        margin-bottom: 2em;
     }
 
     .popular-tour-section-container-text {
-        margin-bottom: 2rem;
+        margin-bottom: 2em;
         padding-left: 1em;
+    }
+
+    .popular-tour-section-container-text h1 {
+        font-size: 1.5em;
+    }
+
+    .popular-tour-section-container-text p li {
+        font-size: 0.5em;
     }
 
     .popular-tour-section-container-image img {
@@ -477,12 +503,12 @@ nav {
     }
 
     .newsletter-section-container-form {
-        width: 70%;
+        width: 78%;
         margin: 1em;
     }
 
     .newsletter-section-container-image img {
-        width: 170%;
+        width: 155%;
         margin: 1em;
         height: 15em;
     }
@@ -503,10 +529,5 @@ nav {
     .footer-section-container img {
         width: 5%;
     }
-
-    .hambarger-menu {
-        display: inline;
-    }
-
 
 }
