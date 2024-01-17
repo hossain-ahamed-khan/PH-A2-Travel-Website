@@ -76,7 +76,7 @@ nav {
 .hero-section-container-text {
     position: absolute;
     top: 10%;
-    left: 15%;
+    left: 17%;
 }
 
 .hero-section-container-text h1 {
@@ -197,6 +197,80 @@ nav {
 
 .destination-section-container-images img {
     margin: 0.5rem;
+}
+
+.destination-section-container-images {
+    position: relative;
+}
+
+.maldives {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.indonesia {
+    position: absolute;
+    top: 12%;
+    right: 20%;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.srilanka {
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.north-america {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.kashmir {
+    position: absolute;
+    top: 45%;
+    right: 8%;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.bangladesh {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.bandarban {
+    position: absolute;
+    bottom: 12%;
+    right: 22%;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
 }
 
 /* choose us section  */
@@ -478,6 +552,53 @@ nav {
         width: 95%;
         height: 15em;
     }
+
+    .destination-section-container-images {
+        position: relative;
+    }
+
+    .maldives {
+        position: absolute;
+        top: 5%;
+        left: 36%;
+    }
+
+    .indonesia {
+        position: absolute;
+        top: 19%;
+        left: 23%;
+    }
+
+    .srilanka {
+        position: absolute;
+        top: 33%;
+        left: 36%;
+    }
+
+    .north-america {
+        position: absolute;
+        top: 47%;
+        left: 29%;
+    }
+
+    .kashmir {
+        position: absolute;
+        top: 62%;
+        left: 10%;
+    }
+
+    .bangladesh {
+        position: absolute;
+        top: 76%;
+        left: 32%;
+    }
+
+    .bandarban {
+        position: absolute;
+        top: 90%;
+        left: 26%;
+    }
+
 
     .choose-us-section-container-text h1 {
         font-size: 1.5em;
